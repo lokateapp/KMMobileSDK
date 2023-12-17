@@ -369,7 +369,7 @@ class IOSBeaconScanner : BeaconScanner {
         //handler.setBetweenScanPeriod(betweenScanPeriod)
     }
 
-    override fun observeResuls(): CFlow<List<BeaconScanResult>> {
+    override fun observeResults(): CFlow<List<BeaconScanResult>> {
         return handler.observeResuls()
     }
 

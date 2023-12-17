@@ -1,7 +1,7 @@
 package com.lokate.kmmsdk.domain.model.beacon
 
 data class BeaconScanResult(
-    val beacon: Beacon,
+    val beaconUUID: String,
     val rssi: Double,
     val txPower: Int,
     val accuracy: Double?,

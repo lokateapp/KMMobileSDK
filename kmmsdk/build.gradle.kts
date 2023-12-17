@@ -52,6 +52,8 @@ kotlin {
             implementation(libs.sqldelight.driver.android)
             implementation(libs.altbeacon.android)
             implementation(libs.androidx.startup)
+            implementation(libs.retrofit)
+            implementation(libs.converter.gson)
         }
 
         iosMain.dependencies {
